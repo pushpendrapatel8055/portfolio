@@ -14,7 +14,7 @@
 
 <body>
   <nav>
-    <input type="checkbox" id="check">
+    <input type="checkbox" id="check"onclick="bodyOverflowHidden()">
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
     </label>
@@ -46,6 +46,25 @@
   </section>
 
   
+ 
+<script>
+  function bodyOverflowHidden() {
+    let b = document.body;
+    let button = document.getElementsByClassName("button-1")
+    let checkBox  =document.getElementById("check");
+    if( checkBox.checked == true){
+        b.style.overflow = "hidden";
+        button.style.display = "none";
+    }
+    else{
+        b.style.overflow = "";
+    }
+
+}
+
+
+</script>
+   
  
 
    
