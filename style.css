@@ -150,7 +150,7 @@ color: #BA68C8;
         overflow: hidden;
         padding-left: 16px;
         padding-right: 16px;
-         position: relative; 
+         
         text-align: left;
         text-decoration: none;
         transition: box-shadow .15s,transform .15s;
@@ -158,7 +158,7 @@ color: #BA68C8;
         -webkit-user-select: none;
         touch-action: manipulation;
         white-space: nowrap;
-        will-change: box-shadow,transform;
+       
         font-size: 18px;
         margin: 10px;
       }
@@ -195,7 +195,7 @@ color: #BA68C8;
         overflow: hidden;
         padding-left: 16px;
         padding-right: 16px;
-        position: absolute;
+        
         text-align: left;
         text-decoration: none;
         transition: box-shadow .15s,transform .15s;
@@ -203,7 +203,7 @@ color: #BA68C8;
         -webkit-user-select: none;
         touch-action: manipulation;
         white-space: nowrap;
-        will-change: box-shadow,transform;
+        
         font-size: 18px;
       }
       
